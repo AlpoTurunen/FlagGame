@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <Switch
+        android:id="@+id/languageSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Use finnish country names"
+        android:textSize="14sp"
+        android:checked="true"
+        />
+
+    <Switch
+        android:id="@+id/countriesSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Exclude unindependent regions"
+        android:textSize="14sp"
+        />
+
+
+    <TextView
+        android:id="@+id/tyhja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FD000000"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/infoTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount of questions: 10/226"
+        android:textColor="#FD000000"
+        android:textSize="14sp" />
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:max="226"
+        android:progress="10"
+        android:min="1"
+        />
+
+
+
+</LinearLayout>
