@@ -1,7 +1,10 @@
 Sovellus on stand-alone -tyyppinen ladattava Android-peli, jossa tavoitteena on opetella kaikkien maiden liput.
-Mukana on myös epäitsenäisiä alueita ja ainakin yhden maan lippu, jota ei ole enää olemassa.
+Mukana on myös epäitsenäisiä alueita ja ainakin yhden maan lippu, jota ei ole enää olemassa. 
+Yhteensä tunnistettavia lippuja on yli 200.
 
-Sovellus on minun ensimmäinen Android-sovellukseni ja samalla myös ensimmäinen suurempi Java-projektini ikinä.
+Sovellus on ensimmäinen Android-sovellukseni ja samalla myös ensimmäinen suurempi Java-ohjelmani. 
+Virheitä ja likaista koodia löytyy varmasti. 
+
 Peli on tehty Android-studiolla.
 
 - Alpo Turunen
